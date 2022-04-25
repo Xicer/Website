@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <title>Post Name</title>  
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/CSS.css"/>
+
+</head>
+
+<body>
+
+
+<!--
+     Navigation Menu 
+-->
+
+<div id="header"> 
+    <div class="mainNav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="Blog Post.html">Posts</a></li>
+            <li><a class="active" href="contact.html">Contanct Us</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+
+
+
+<!--
+    Blog Body 
+-->
+    <div class="content">
+        
+        <h3>Contact Us Form</h3>
+
+        <p>
+            Please fill in the form, and we'll get back
+            to you as soon as possible.
+        </p>
+        
+        <div class="formContainer">
+            <form id="contactForm" action="#">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="firstNameLabelHolder">
+                                <label for="fName">First Name :</label>
+                            </div>
+                    
+                            <div class="firstNameFormHolder">
+                                <input type="text" id="fName" name="fName" Value=""/>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="lastNameLabelHolder">
+                                <label for="lastName">Last Name :</label>
+                            </div>
+                            <div class="lastNameFormHolder">
+                                <input type="text" id="lName" name="lName" Value="">
+                            </div>
+                        </td>
+                    </tr>
+                    
+
+                    <tr>
+                        <td>
+                            <div class="emailLabelHolder">
+                                <label for="email">Email Address :</label>
+                            </div>
+                        
+                            <div class="emailFormHolder">
+                                <input type="email" id="email" name="email" value=""/>
+                            </div>
+                        </td>
+                        
+                        <td>
+                            <div class="phoneLabelHolder">
+                                <label for="phoneNumber">Phone Number :</label>
+                            </div>
+
+                            <div class="phoneFormHolder">
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <div class="textareaLabelHolder">
+                                <label for="textarea"> Your Message :</label>
+                            </div>
+
+                            <div class="textareaFormHolder">
+                                <textarea type="textarea" name="yourMessage" id="textarea" placeholder="Type Your Message Here ..."></textarea>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                             <button type="button" id="submitButton" name="submit" value="Submit">Submit </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        
+        
+    </div>
+
+<!--
+    Sidebar
+-->
+
+    <div id="sidebar">
+        <ul class="sideBarNav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="Blog Post.html">Posts</a></li>
+            <li><a class="active" href="contact.html">Contanct Us</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<!--
+    Footer
+-->
+
+<div id="footer">
+    Copyright ©
+</div>
+
+
+</body>
+
+
+</html>

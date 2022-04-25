@@ -1,0 +1,51 @@
+.mainPagePost {
+    text-align : left;
+    border-bottom: 1px solid  rgb(75, 69, 69, .5);
+    font-style:bold;
+}
+
+.mainPagePost h1 { 
+    font-weight: bold;
+}
+
+.mainPageImage {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    height : 300px;
+}
+
+.mainPagePostHeader {
+    Padding: 20px;
+    border-left : 3px solid rgba(224, 60, 18, 0.9)
+}
+
+.mainPagePostContent {
+    margin-top : 20px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.secondaryArticlesContainer > a > img {
+    width : 100px;
+    height:100px;
+    display:block;
+    float: left;
+    margin:20px;
+}
+
+.seperator {
+    border-bottom:1px solid #000;
+    height:1px;
+    width:500px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+.secondaryArticleTitle {
+    /* float:left; */
+    padding-left:20px;
+}

@@ -1,0 +1,14 @@
+.postContainer > h3 {
+    border-left : 3px solid rgba(224, 60, 18, 0.9);
+    padding:20px;
+}
+
+
+.postContainer > img {
+    height:100px;
+    width:100px;
+}
+
+.postContainer > p {
+    text-align: justify;
+}
